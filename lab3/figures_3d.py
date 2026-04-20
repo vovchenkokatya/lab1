@@ -95,3 +95,4 @@ class TriangularPrism(Triangle):
         return super().square()
     def volume(self):
         return self.squareBase() * self.h
+

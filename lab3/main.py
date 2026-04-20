@@ -35,3 +35,4 @@ def find_largest_figure(filename):
 if __name__ == "__main__":
     for i in range(1, 4):
         find_largest_figure(f'input0{i}.txt')
+
