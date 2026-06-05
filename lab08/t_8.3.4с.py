@@ -1,8 +1,8 @@
 def determinant(n):
-    D1 = 3
-    D2 = 7
+    D1 = 1
+    D2 = -2
     for i in range(1, n+1):
-        D3 = 3 * D2 - 2 * D1
+        D3 = 5 * D2 - 6 * D1
         yield D1
         D1 = D2
         D2 = D3

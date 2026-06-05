@@ -1,7 +1,7 @@
 def B(n):
     S = 0
-    for k in range(1, n + 1):
-        S += ((-1)**(k - 1)) / k
+    for k in range(2, n + 1):
+        S += ((-1)**k) * (k - 1) / k
         yield S
 
 if __name__ == '__main__':
